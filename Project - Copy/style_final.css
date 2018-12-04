@@ -1,0 +1,185 @@
+body{
+    margin:auto 2%; 
+    
+}
+
+.navigationDesktop{
+	background:aliceblue;
+	
+}
+
+nav {
+	height:50px;
+	width:auto; 
+	text-align: center;
+	
+}
+
+nav a{
+	display:block;
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	font-size:13pt;
+	color:#112233;
+}
+
+nav a:hover{
+	background:#223433;
+	color:#f0f1f5;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	line-height: 40px;
+	background-color:darkgray;
+}
+
+nav ul ul li{
+	position:relative;
+	display:none;
+}
+
+nav ul ul ul{
+	display:none;
+}
+
+nav ul li:hover ul li{
+	display: block;
+	
+}
+
+
+
+nav ul ul li:hover ul{
+	display:block;
+	position:absolute;
+	width:140px;
+	left:140px;
+	top:0px;
+}
+
+#header{
+	background-color:none;
+	height:20px;
+	width:100%;
+	float:right;
+}
+
+#logo{
+	
+	height:148px;
+	width:13%;
+	float:left;
+}
+#logo img{
+    width:100%;
+    height:150px; 
+}
+#test{
+    background-color:darkgray;
+    width:40%;
+    height:350px; 
+    float:right;
+
+}
+
+
+#test ul li{
+    
+    background:darkgray;
+	float:left;
+    list-style-type: square;
+    
+    font-size:30px;
+    
+    width:90%; 
+    
+    text-align:left; 
+}
+
+#test ul li a{
+    text-decoration:none;
+    color:white; 
+}
+
+
+
+#banner{
+	
+	height:160px;
+	width:87%;
+	float:left;
+	font-size:6pt;
+}
+
+#slider{
+    background:none;
+    width:100%;
+    height:350px;
+    float:left; 
+}
+
+#slider img{
+    width:60%;
+    height:350px; 
+}
+
+#content_wrapper{
+    background-color:white;
+    width:100%;
+    height:auto; 
+    margin-top:3px;
+    float:left; 
+}
+
+#left_content{
+    background-color:black;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+#left_content img{
+    width:100%;
+    height:250px; 
+	
+}
+
+#mid_content{
+    background-color:white;
+    width:42%;
+    height:auto; 
+    float:left;
+    margin-left:0.3%; 
+    margin-right:0.3%; 
+    padding:10px; 
+}
+#right_content{
+    background-color:black;
+    width:25%;
+    height:auto; 
+    float:right; 
+}
+#right_content img{
+    width:100%;
+    height:250px; 
+	
+}
+
+
+#footer{
+    background:aliceblue;
+    width:100%;
+    height:95px; 
+    margin-top:3px;
+    float:left; 
+    text-align: center;
+    color:white; 
+}
