@@ -1,0 +1,248 @@
+body{
+    margin: 2px; 
+    background:silver; 
+}
+
+
+
+
+
+#header
+{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+#header_wraffer
+{
+    background-color:white;
+    width:100%;
+    height:200px; 
+    float:left; 
+}    
+#logo{
+    background-color:green;
+    width:20%;
+    height: 200px;
+    float: left;
+    
+}
+#logo img
+{
+    width:100%;
+    height:200px; 
+}
+
+#banner{
+    background-color:Gainsboro;
+    width:80%;
+    height: 200px;
+    float:left; 
+    color:green;
+    text-align:center;
+
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+#nav
+{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    margin-top:3px;
+}  
+    ul li
+    {
+      list-style: none; 
+      float: left;
+      height: 50px;
+      width: 16%;
+      line-height: 50px;
+      text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+#container
+{
+    height: auto;
+    width: 100%;
+    background-color: none;
+}
+
+#left_container
+{
+    height: 500px;
+    width: 60%;
+    float: left;
+}
+#bol
+{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+
+#a
+{
+    height:200px;
+    width: 16%;
+    float: left;
+}
+#b
+{
+    height:200px;
+    width: 16%;
+    float: left;
+}
+#c
+{
+    height:200px;
+    width: 16%;
+    float: left;
+}
+#d
+{
+    height:200px;
+    width: 16%;
+    float: left;
+}
+#e
+{
+    height:200px;
+    width: 16%;
+    float: left;
+}
+
+#right_container
+{
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+#footer
+{
+    height: 50px;
+    width: 100%;
+   background-color: #9ACD32;    
+}
+
+
+
+
+
+
+
+
+
+
+#T1
+{
+    position: relative;
+    float: right;
+    right: 120px;
+    top: -38px;
+    color: white;
+     
+}
+
+#C1:hover
+{
+    
+ color: #85A5E8;
+ cursor: pointer;
+
+}
+#f1
+{
+    position: relative;
+    float: right;
+    right: 89px;
+    top: -300px;
+    
+}
+#fn1
+{
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    color: black;
+    padding: 0px;
+    height: 40px;
+    width: 210px;
+    position: relative; 
+    top: -150px;
+    float: left;
+    
+}
+#fn2
+{
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    color: black;
+    padding: 0px;
+    height: 40px;
+    width: 200px;
+    position: relative; 
+    top: -150px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fn3
+{
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    color: black;
+    padding: 0px;
+    height: 40px;
+    width: 425px;
+    margin-top: 10px;
+    position: relative; top: -150px;
+    
+}
+
+#fn4
+{
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    color: black;
+    padding: 0px;
+    height: 40px;
+    width: 425px;
+    margin-top: 10px;
+    position: relative; top: -150px;
+    
+}
+
+select
+{
+    height: 35px;
+    display: inline;
+    float: left;
+    position: relative; top: -150px;
+}
